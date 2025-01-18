@@ -38,7 +38,6 @@ import com.example.mobile_computinghw1.ui.theme.MobileComputingHW1Theme
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        enableEdgeToEdge()
         setContent {
             MobileComputingHW1Theme {
                 Conversation(SampleData.conversationSample)
